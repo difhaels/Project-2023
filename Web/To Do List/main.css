@@ -1,0 +1,3 @@
+.item-completed:checked + .item-description {
+  text-decoration: line-through;
+}
