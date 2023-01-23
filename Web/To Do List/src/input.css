@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.close {
+  @apply absolute top-0 right-0 px-[12px] py-[16px] hover:bg-red-500;
+}
+
+li {
+  @apply cursor-pointer relative px-10 py-3 text-xl bg-[#eee];
+}
+
+li:nth-child(odd) {
+  @apply bg-[#f9f9f9];
+}
+
+li.checked {
+  @apply bg-[#888] text-[#fff] line-through;
+}
